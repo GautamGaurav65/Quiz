@@ -21,3 +21,5 @@ A **web-based quiz application** that fetches questions from an API and provides
 
 ## 📂 Folder Structure  
 
+frontend/ │── public/ # Static assets │── src/
+│ ├── api/ # API request functions │ │ ├── quizApi.js │ ├── components/ # Reusable components │ │ ├── Quiz.jsx │ │ ├── Result.jsx │ ├── pages/ # Page-level components │ │ ├── Home.jsx │ │ ├── QuizPage.jsx │ │ ├── ResultPage.jsx │ ├── routes/ # App routing │ │ ├── AppRoutes.jsx │ ├── styles/ # CSS styles │ ├── App.jsx # Main App component │ ├── main.jsx # Entry point │── .env # Environment variables │── package.json # Dependencies & scripts │── vite.config.js # Vite configuration │── README.md # Documentation
